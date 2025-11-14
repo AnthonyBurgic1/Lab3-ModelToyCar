@@ -39,7 +39,7 @@ const toyCarsDB = [
     3, "Porsche 911 GT3 RS", "ModelToyCars", "1:18", "Blue", "Diecast Metal",
     95.00, "1.3kg", {length: "26cm", width: "12cm", height: "7cm"},
     2024, 10, "Flat-6", "Germany", true,
-    "images/911-GT3RS-modelcar.jpeg"
+    "images/911-GT3RS-modelcar.jpg"
   ),
   new ToyCar(
     4, "Ford Mustang GT", "ModelToyCars", "1:24", "Black", "Plastic",
