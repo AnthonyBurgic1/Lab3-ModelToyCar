@@ -39,19 +39,19 @@ const toyCarsDB = [
     3, "Porsche 911 GT3 RS", "ModelToyCars", "1:18", "Blue", "Diecast Metal",
     95.00, "1.3kg", {length: "26cm", width: "12cm", height: "7cm"},
     2024, 10, "Flat-6", "Germany", true,
-    "images/911-GT3RS-modelcar.jpeg"
+    "images/911-GT3RS-modelcar.jpg"
   ),
   new ToyCar(
     4, "Ford Mustang GT", "ModelToyCars", "1:24", "Black", "Plastic",
     59.99, "800g", {length: "23cm", width: "9cm", height: "6cm"},
     2021, 25, "V8", "USA", false,
-    "images/mustang-gt-modelcar.jpg"
+    "images/mustang-gt-modelcar.jpeg"
   ),
   new ToyCar(
     5, "Nissan GT-R R35", "ModelToyCars", "1:18", "Silver", "Diecast Metal",
     82.50, "1.1kg", {length: "25cm", width: "11cm", height: "7cm"},
     2023, 12, "V6 Twin Turbo", "Japan", true,
-    "images/R35-model car.jpg"
+    "images/R35-model car.jpeg"
   )
 ];
 
