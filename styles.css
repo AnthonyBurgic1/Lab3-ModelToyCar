@@ -5,3 +5,144 @@ body {
   margin: 0;
   color: #222;
 }
+header {
+  background-color: #d50000;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.car-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 650px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#colorOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  opacity: 0.35;
+  pointer-events: none;
+  transition: background-color 0.4s ease;
+}
+
+.car-details {
+  margin-top: 1em;
+  text-align: left;
+  width: 100%;
+}
+
+.car-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.car-details li {
+  padding: 0.3em 0;
+}
+
+.interaction {
+  text-align: center;
+  margin-top: 2em;
+}
+
+input, button {
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  background-color: #d50000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #a00000;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1em;
+  background: #111;
+  color: #fff;
+}
+
+/* --- Custom Dropdown Styling --- */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+#dropdownButton {
+  background-color: #d50000;
+  color: white;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  z-index: 10;
+  width: 250px;
+  overflow: hidden;
+}
+
+.dropdown-content div {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content div:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown-content img {
+  width: 40px;
+  height: 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+  object-fit: cover;
+}
